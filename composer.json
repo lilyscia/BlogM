@@ -1,0 +1,11 @@
+{
+	"require" : {
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Alice\\Framework\\" : "Framework",
+			"Blog\\Model\\Entity\\" : "Model/Entity",
+			"Blog\\Model\\Manager\\" : "Model/Manager"
+		}
+	}
+}
