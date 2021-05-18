@@ -1,0 +1,2 @@
+# BlogM
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6c597fac583c406f8cbcfe86abba02da)](https://app.codacy.com/gh/lilyscia/BlogM?utm_source=github.com&utm_medium=referral&utm_content=lilyscia/BlogM&utm_campaign=Badge_Grade_Settings)
