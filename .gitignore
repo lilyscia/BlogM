@@ -1,1 +1,6 @@
+.buildpath
+.project
+.settings/
+desktop.ini
+
 vendor/
