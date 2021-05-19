@@ -75,3 +75,9 @@ Nota Bene Votre projet devra être suivi via SymfonyInsight, ou Codacy pour la q
 ## Autres informations
 
 Le thème Bootstrap utilisé est [Clean Blog](https://startbootstrap.com/theme/clean-blog). 
+
+## Code quality
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/6d13b2b190c7267438d2/maintainability)](https://codeclimate.com/github/lilyscia/BlogM/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6d13b2b190c7267438d2/test_coverage)](https://codeclimate.com/github/lilyscia/BlogM/test_coverage)
