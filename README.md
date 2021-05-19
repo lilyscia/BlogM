@@ -1,20 +1,25 @@
 # BlogM
+
 ## Information
 Ce blog a été développé dans le cadre du Projet 5 de mon parcours de formation Développeur-PHP/Symfony chez Openclassrooms.
 
 ## Installation
+
 * Etape 1: Télécharger les fichiers dans le dossier racine de votre serveur web (en général "www/")
 * Etape 2: Créer une base données sur votre SGDB (MySQL) et importer le fichier Database/p5-blog.sql pour charger les tables du blog.
 * Etape 3 : Configurer le fichier prod.ini avec vos informations
 
 ## Utilisation
+
 * Vous pouvez créer un compte dans l'onglet "Inscription" du menu du blog.
 * Ensuite, pour disposer d'un compte administrateur qui vous permettra de gérer votre blog via le menu "Administration", vous devez dans la table "user" de votre base de données modifier la colonne "usertype" de l'utilisateur que vous venez de créer et y mettre la valeur 2 et enfin enregistrer. 
 
 ## Contexte
+
 Ça y est, vous avez sauté le pas ! Le monde du développement web avec PHP est à portée de main et vous avez besoin de visibilité pour pouvoir convaincre vos futurs employeurs/clients en un seul regard. Vous êtes développeur PHP, il est donc temps de montrer vos talents au travers d’un blog à vos couleurs.
 
 ## Description du besoin
+
 Le projet est donc de développer votre blog professionnel. Ce site web se décompose en deux grands groupes de pages :
 
 les pages utiles à tous les visiteurs ; les pages permettant d’administrer votre blog. Voici la liste des pages qui devront être accessibles depuis votre site web :
@@ -55,6 +60,7 @@ L’écriture de ces tickets vous permettra de vous accorder sur un vocabulaire 
 Nota Bene Votre projet devra être suivi via SymfonyInsight, ou Codacy pour la qualité du code. Vous veillerez à obtenir une médaille d'argent au minimum (pour SymfonyInsight). En complément, le respect des PSR est recommandé afin de proposer un code compréhensible et facilement évolutif.
 
 ## Objectifs du projet
+
 * Estimer une tâche et tenir les délais
 * Gérer ses données avec une base de données
 * Proposer un code propre et facilement évolutif
@@ -67,4 +73,5 @@ Nota Bene Votre projet devra être suivi via SymfonyInsight, ou Codacy pour la q
 * Rédiger les spécifications détaillées du projet
 
 ## Autres informations
+
 Le thème Bootstrap utilisé est [Clean Blog](https://startbootstrap.com/theme/clean-blog). 
