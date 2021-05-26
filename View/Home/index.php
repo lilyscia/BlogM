@@ -23,7 +23,7 @@
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
       <p>Bienvenue sur mon blog !</p>
-      <p> Vous y découvrirez des articles sur la développement web et plein d'autres sujets!</p>
+      <p> Vous y découvrirez des articles sur le développement web et plein d'autres sujets!</p>
     </div>
   </div>
 </div>

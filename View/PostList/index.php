@@ -8,7 +8,7 @@
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="site-heading">
           <h1>Articles</h1>
-          <span class="subheading">Cliquez sur un article et déléctez!</span>
+          <span class="subheading">Cliquez sur un article et déléctez vous!</span>
         </div>
       </div>
     </div>
