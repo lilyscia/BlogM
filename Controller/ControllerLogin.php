@@ -5,7 +5,6 @@ use Alice\Framework\Controller;
 use Blog\Model\Manager\UsersManager;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\SMTP;
 
 
 class ControllerLogin extends Controller
@@ -108,37 +107,9 @@ class ControllerLogin extends Controller
                         ---------------
                        Ceci est un mail automatique, Merci de ne pas y répondre.';
                     
-                   /* $headers = "From:" . Configuration::get("noreply") . "\n";
+                    $headers = "From:" . Configuration::get("noreply") . "\n";
                     $headers .= "Reply-To:" . $user->getEmail();
-                    mail($to,$email_subject,$email_body,$headers);*/
-                    $mail = new PHPMailer(true);
-
-            try {
-                //Server settings
-                //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-                $mail->isSMTP();                                            //Send using SMTP
-                $mail->Host       = 'in-v3.mailjet.com';                     //Set the SMTP server to send through
-                $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                $mail->Username   = '89aadcb6588d1b1b14763251200477cb';                     //SMTP username
-                $mail->Password   = '670cd58d42ab8e4a2fa61cc86697d209';                               //SMTP password
-                $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-                $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
-
-                //Recipients
-                $mail->setFrom('aliceagnissey@gmail.com', 'Alice Dejean');
-                $mail->addAddress($to);     //Add a recipient
-                
-
-                //Content
-                $mail->isHTML(true);                                  //Set email format to HTML
-                $mail->Subject = $email_subject;
-                $mail->Body    = $email_body;
-               
-                $mail->send();
-                $this->successMessage = 'Message envoyé avec succès !';
-            } catch (Exception $e) {
-                echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-            }
+                    mail($to,$email_subject,$email_body,$headers);
                     $this->redirect('Login');
         }
     }
